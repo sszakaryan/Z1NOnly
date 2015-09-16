@@ -1,4 +1,36 @@
-nav {
-	background-color: blue;
-	color: red;
+body {
+	background-color: #20B2AA;
+}
+
+.nav {
+	height: 70px;
+	width: 70px;
+	background-color: #191970;
+	border-width: 5px;
+	border-color: black;
+	text-align: center;
+}
+
+#indexbutton {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#aboutmebutton {
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
+#resumebutton {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+#contactbutton{
+	position: fixed;
+	bottom: 0;
+	right: 0;
 }
